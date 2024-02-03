@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(flowers.png);
+    overflow: hidden;
+}
+@font-face {
+  font-family: "Protest Riot", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+}
+.hero {
+  margin: 1em 2em;
+  height: 82vh;
+  width: 90vw;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding-left: 20%;
+  overflow: hidden;
+}
+.one {
+  width: 800px;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+#letter {
+  width: 50%;
+}
+#play-button {
+  border-radius: 20px;
+  border-width: 5px;
+  border-color: #D63484;
+  color: #fd008b;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 24px;
+}
+#play-button:hover, .choices:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.cat{
+  width: 40%;
+}
+.two, .three {
+  width: 800px;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+p {
+  font-size: 30px;
+  color: #fd008b;
+  font-family: Protest Riot;
+}
+.choices {
+  border-radius: 20px;
+  border-width: 5px;
+  border-color: #D63484;
+  color: #fd008b;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 3em;
+}
+.choices:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.invitation {
+  height: 80vh;
+}
+.dance {
+  height: 20%;
+  position: absolute;
+  left: 150px;
+}
+.wow {
+  height: 30%;
+  position: absolute;
+  right: 280px;
+  margin-bottom: 100px;
+}
